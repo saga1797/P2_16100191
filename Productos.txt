@@ -1,0 +1,19 @@
+Create table Mesas  (ProductID int PRIMARY KEY NOT NULL,  
+    Descripcion varchar(25) NOT NULL,  
+    Price money NULL)  
+
+	Create table Fuentes(ProductID int PRIMARY KEY NOT NULL,  
+    Descripcion varchar(25) NOT NULL,  
+    Price money NULL)  
+	
+	Create table Columnas (ProductID int PRIMARY KEY NOT NULL,  
+    Descripcion varchar(25) NOT NULL,  
+    Price money NULL)
+
+	Create table Bancas (ProductID int PRIMARY KEY NOT NULL,  
+    Descripcion varchar(25) NOT NULL,  
+    Price money NULL)
+
+	Create table Disenos(ProductID int PRIMARY KEY NOT NULL,  
+    Descripcion varchar(25) NOT NULL,  
+    Price money NULL)
